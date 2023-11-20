@@ -1,0 +1,134 @@
+body{
+    padding-left: 400px;
+    background-color: yellow;
+}
+h1{
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+.a1{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+}
+.li-1{
+    display: flex;
+    flex-direction: row;
+}
+#A1 div{
+    background-color: teal;
+}
+#b1{
+    transform: skewX(30deg);
+    animation-name: transformx;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes transformx {
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+#A2 div{
+    background-color: darkgray;
+}
+#b2{
+    animation-name: transformy;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes transformy {
+    0%{
+        transform: skewY(30deg);
+    }
+    50%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+#A3 div{
+    background-color:teal;
+}
+#b3{
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#b4{
+    border: 2px solid blueviolet;
+    background-color: teal;
+    animation-name: scale1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale1 {
+    0%{
+        transform: scaleY(1.0);
+    }
+    50%{
+        transform: scaleY(0.60);
+    }
+    100%{
+        transform: scaleY(1.0);
+    }
+}
+#b5{
+    border: 2px solid blueviolet;
+    background-color: brown;
+    animation-name: scale2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale2 {
+    0%{
+        transform: scaleX(1.0);
+    }
+    50%{
+        transform: scaleX(0.35);
+    }
+    100%{
+        transform: scaleX(1.0);
+    }
+}
+#b6{
+    border: 2px solid blueviolet;
+    background-color: green;
+    animation-name: scale3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.another{
+    text-decoration: underline;
+    color: brown;
+    padding-left: 90px;
+}

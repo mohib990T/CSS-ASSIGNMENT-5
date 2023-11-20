@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, orange, white, green);
+  background-repeat: no-repeat;
+}
+.text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  top: 50px;
+}
+.text1 {
+  background-color: orange;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.text2 {
+  background-color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.text3 {
+  background-color: green;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.sky {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
+.city {
+  position: relative;
+  margin-top: 250px;
+  width: 100%;
+  height: 240px;
+}
+.road {
+  position: relative;
+  width: auto;
+  height: 250px;
+  margin-top: -10px;
+  animation-name: highway;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+@keyframes highway {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 100%;
+  }
+}
+.car {
+  position: relative;
+  height: 150px;
+  width: 350px;
+  left: 550px;
+  bottom: 320px;
+}
+.wheel1 {
+  position: relative;
+  height: 62px;
+  left: 227px;
+  bottom: 327px;
+  animation-name: wheel1;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+@keyframes wheel1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.wheel2 {
+  position: relative;
+  height: 62px;
+  left: 375px;
+  bottom: 327px;
+  animation-name: wheel2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+}
+@keyframes wheel2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sun {
+  position: relative;
+  height: 85px;
+  bottom: 700px;
+  animation-name: sun-rotate;
+  animation-timing-function: linear;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+@keyframes sun-rotate {
+  0%{
+    left: 620px;
+  }
+  100%{
+    left: -700px;
+  }
+}
+.flag1 {
+  position: relative;
+  z-index: 1;
+  height: 100px;
+  left: 310px;
+  bottom: 400px;
+}
+.flag2 {
+  position: relative;
+  z-index: 1;
+  height: 100px;
+  left: 190px;
+  bottom: 400px;
+  transform: rotateY(180deg);
+}

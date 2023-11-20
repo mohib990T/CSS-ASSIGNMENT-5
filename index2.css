@@ -1,0 +1,112 @@
+body{
+    padding-left: 400px;
+    background-color: yellow;
+}
+h1{
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+.back{
+    font-size: x-large;
+    text-decoration: underline;
+    color: blue;
+    padding-left: 200px;
+}
+.next{
+    font-size: x-large;
+    text-decoration: underline;
+    color: blue;
+    padding-left: 200px;
+}
+.tran1{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition:ease;
+    transition-duration: 2s;
+}
+.tran1:hover{
+    width: 300px;
+}
+.tran2{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+    background-color: greenyellow;
+    transition: ease;
+    transition-duration: 3s;
+}
+.tran2:hover{
+    width: 300px;
+    height: 300px;
+}
+.tran3{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition: ease-in;
+    transition-duration: 2s;
+}
+.tran3:hover{
+    width: 300px;
+}
+.tran4{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.tran4:hover{
+    width: 300px;
+}
+.tran5{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition: ease-out;
+    transition-duration: 2s;
+}
+.tran5:hover{
+    width: 300px;
+}
+.tran6{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition: linear;
+    transition-duration: 2s;
+}
+.tran6:hover{
+    width: 300px;
+}
+.tran7{
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    height: 110px;
+    width: 110px;
+    background-color: greenyellow;
+    transition: all;
+    transition-duration: 2s;
+}
+.tran7:hover{
+    width: 300px;
+}
